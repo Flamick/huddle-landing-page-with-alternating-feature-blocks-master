@@ -1,70 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet" />
 
-  Try It Free
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
 
-  Build The Community Your Fans Will Love
+		<link
+			rel="stylesheet"
+			href="style.css" />
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+		<title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
-  Get Started For Free
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="nav">
+				<img
+					src="./images/logo.svg"
+					alt="" />
+				<div class="btn"><a href="#">Try It Free </a></div>
+			</div>
+			<div class="header-content">
+				<div class="header-flex">
+					<h1>Build The Community Your Fans Will Love</h1>
+					<p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
+					<div class="btn"><a href="#">Get Started For Free</a></div>
+				</div>
+				<img
+					src="./images/illustration-mockups.svg"
+					alt="" />
+			</div>
+		</header>
 
-  Grow Together
+		<div class="container">
+			<main>
+				<div class="card">
+					<div class="card-flex">
+						<h2>Grow Together</h2>
+						<p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </p>
+					</div>
+					<img
+						src="./images/illustration-grow-together.svg"
+						alt="" />
+				</div>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+				<div class="card">
+					<div class="card-flex">
+						<h2>Flowing Conversations</h2>
+						<p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow. </p>
+					</div>
+					<img
+						src="./images/illustration-flowing-conversation.svg"
+						alt="" />
+				</div>
 
-  Flowing Conversations
+				<div class="card">
+					<div class="card-flex">
+						<h2>Your Users</h2>
+						<p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately. </p>
+					</div>
+					<img
+						src="./images/illustration-your-users.svg"
+						alt="" />
+				</div>
 
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
+				<div class="get-started">
+					<h2>Ready To Build Your Community?</h2>
+					<div class="btn"><a href="#">Get Started For Free</a></div>
+				</div>
+			</main>
+		</div>
 
-  Your Users
+		<footer>
+			<img
+				src="./images/logo.svg"
+				alt="" />
+			<div class="footer-flex">
+				<div class="grid-1">
+					<img
+						src="./images/icon-location.svg"
+						alt="" />
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					<img
+						src="./images/icon-phone.svg"
+						alt="" />
+					<p>+1-543-123-4567</p>
+					<img
+						src="./images/icon-email.svg"
+						alt="" />
+					<p>example@huddle.com</p>
+				</div>
+				<div class="grid-2">
+					<ul>
+						<li>About Us</li>
+						<li>What We Do</li>
+						<li>FAQ</li>
+						<li>Career</li>
+						<li>Blog</li>
+						<li>Contact Us</li>
+					</ul>
+				</div>
+				<div class="icon-flex">
+					<i class="fa-brands fa-facebook-f"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-instagram"></i>
+				</div>
+			</div>
+			<p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+		</footer>
 
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+		<footer>
+			<p class="attribution">
+				Challenge by
+				<a
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Your Name Here</a>.
+			</p>
+		</footer>
+	</body>
 </html>
