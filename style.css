@@ -41,9 +41,12 @@ header {
 	background-size: auto;
 	background-color: var(--very-pale-cyan);
 	background-position: top left;
-	padding: 1.2rem;
-	padding-top: 1.6rem;
-	padding-bottom: 2.4rem;
+}
+
+.header-container {
+	padding: 1.6rem 2rem 2.4rem 2rem;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .nav {
@@ -76,7 +79,6 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 0 1rem;
 }
 
 .header-flex {
@@ -265,6 +267,19 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
+	.header-content {
+		flex-direction: row;
+		gap: 1rem;
+	}
+
+	.header-content img {
+		max-width: 50%;
+	}
+
+	.header-flex {
+		padding-top: 4rem;
+	}
+
 	.card {
 		flex-direction: row;
 
@@ -277,6 +292,10 @@ footer {
 		}
 	}
 
+	.card {
+		padding: 2rem;
+	}
+
 	.card img {
 		max-width: 50%;
 	}
@@ -287,5 +306,137 @@ footer {
 
 	.get-started {
 		max-width: 60%;
+	}
+
+	.grid-2 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-content: center;
+		align-items: center;
+		padding: 0 5rem;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	header {
+		background-image: url(./images/bg-hero-desktop.svg);
+		background-size: auto;
+	}
+
+	.nav .btn {
+		padding: 1rem 2.6rem;
+	}
+
+	.nav .btn a {
+		font-size: 1rem;
+	}
+
+	.nav img {
+		max-width: 20%;
+	}
+
+	.header-container {
+		padding: 0;
+		padding-top: 2.4rem;
+		max-width: 1300px;
+	}
+
+	.header-content {
+		padding-top: 4rem;
+		gap: 3.6rem;
+		width: 100%;
+		padding-bottom: 4.4rem;
+	}
+
+	.header-content img {
+		max-width: 53%;
+	}
+
+	.header-content h1 {
+		font-size: 2.5rem;
+		text-align: left;
+	}
+
+	.header-content p {
+		font-size: 18px;
+		text-align: left;
+	}
+
+	.header-content .btn {
+		align-self: flex-start;
+	}
+
+	.header-content .btn a {
+		font-size: 1rem;
+		padding: 0.8rem 1.4rem;
+	}
+
+	.container {
+		max-width: 1260px;
+	}
+
+	.card {
+		gap: 8.6rem;
+		padding-left: 6rem;
+	}
+
+	.card img {
+		max-width: 40%;
+	}
+
+	.card-flex h2 {
+		font-size: 2rem;
+		text-align: left;
+	}
+
+	.card-flex p {
+		text-align: left;
+		font-size: 18px;
+	}
+
+	.get-started-container {
+		max-width: 1260px;
+	}
+
+	.get-started {
+		width: 60%;
+	}
+
+	.get-started h2 {
+		font-size: 1.8rem;
+	}
+
+	.get-started .btn {
+		padding: 1rem 4.4rem;
+	}
+
+	.get-started .btn a {
+		font-size: 1rem;
+	}
+
+	.footer-container {
+		max-width: 1200px;
+		width: 100%;
+	}
+
+	.footer-container .img-container img {
+		width: 20%;
+		height: auto;
+	}
+
+	.footer-flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.grid-1 {
+		width: 40%;
+	}
+
+	.grid-2 {
+		padding: 0;
+		width: 40%;
 	}
 }
