@@ -160,6 +160,7 @@ main {
 
 .get-started-container {
 	width: 100%;
+	margin: 0 auto;
 	padding: 0 0.6rem;
 }
 
@@ -448,7 +449,7 @@ footer {
 	}
 
 	.grid-1 {
-		width: 40%;
+		width: 34%;
 	}
 
 	.grid-2 {
