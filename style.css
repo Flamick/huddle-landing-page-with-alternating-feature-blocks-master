@@ -439,4 +439,8 @@ footer {
 		padding: 0;
 		width: 40%;
 	}
+
+	.copyright {
+		justify-self: flex-end;
+	}
 }
