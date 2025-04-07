@@ -159,6 +159,7 @@ main {
 }
 
 .get-started-container {
+	width: 100%;
 	padding: 0 0.6rem;
 }
 
@@ -333,6 +334,11 @@ footer {
 	}
 }
 
+.grid-2 a {
+	text-decoration: none;
+	color: white;
+}
+
 .attribution a {
 	color: var(--pink);
 }
@@ -409,6 +415,7 @@ footer {
 
 	.get-started-container {
 		max-width: 1260px;
+		margin: 0 auto;
 	}
 
 	.get-started {
